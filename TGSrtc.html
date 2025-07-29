@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+       <form action="./response.html" autocomplete="off">
+    <fieldset style="background-color:aliceblue;" style="width: fit-content;">
+        <center><img src="https://w7.pngwing.com/pngs/492/731/png-transparent-telangana-state-road-transport-corporation-bus-nizamabad-hyderabad-bus-label-logo-india.png"  alt="TSRTC Logo" width="100"></center>
+    <h1 style="color: blue;" align="center">TELANGANA STATE ROAD TRANSPORT CORPORATION</h1><br>
+    <h1 style="color:black" align="center">GENERAL BUS PASS APPLICATION</h1>
+    </fieldset>
+    <fieldset>
+        <legend><h3 style="color: cornflowerblue;">Applicant Details</h3></legend>
+        <label for="name" autofocus="Full Name" >Full Name:</label>
+        <input type="text" name="fullname" id="name" maxlength="20" [A-z]+>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+       <label for="fname"  autofocus="Father's/Guardian's Name" >Father's/Guardian's Name:</label>
+        <input type="text" id="fname" maxlength="20" [A-z]+><br><br>
+
+        <label for="dob" >Date of Birth:</label>
+        <input type="date" id="dob" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+         <label for="Gender" >Gender:</label>
+        <input type="radio" id="male" name="Gender" value="male">male
+        <input type="radio" id="male" name="Gender" value="male">male<br><br>
+
+         <label for="age" >Age:</label>
+        <input type="text" name="mobile" pattern="[0-9]{10}" maxlength="3" required>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+        <label for="AD no" >Aadhaar No:</label>
+        <input type="number"  maxlength="10" id="AD no" ><br><br>
+        
+         <label for="wno" >WhatsApp No:</label>
+        <input type="number" maxlength="10" id="wno" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+        <label for="eid">E-mail Id:</label>
+        <input type="text" pattern="[a-z]+[0-9]+[!@£$%^&*()_+][@gmail.com]" maxlength="50" id="eid"><br><br>
+
+        <label for="img">Photo:</label>
+        <input type="file" id="img">
+    </fieldset>
+
+    <fieldset>
+        <legend><h3 style="color:cornflowerblue">Residential Address Details</h3></legend>
+        <label for="address">Applicant Address:</label>
+    <textarea id="address" name="address" rows="3" cols="30"></textarea>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+    <label for="district">District:</label>
+    <select id="district" name="district">
+      <option value="...">...</option>
+      <option value="...">...</option>
+      </select><br><br>
+
+      <label for="mandal">Mandal:</label>
+    <select id="mandal" name="mandal">
+      <option value="...">...</option>
+      <option value="...">...</option>
+      </select>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+      <label for="village">Village:</label>
+    <select id="village" name="village">
+      <option value="...">...</option>
+      <option value="...">...</option>
+      </select>
+    </fieldset>
+
+    <fieldset>
+                <legend><h3 style="color: cornflowerblue;">Pass Type Details</h3></legend>
+        <label for="city">city:</label>
+    <select id="city" name="city">
+      <option value="...">...</option>
+      <option value="...">...</option>
+      </select><br><br>
+
+      <label for="Pass Type">Pass Type:</label>
+    <select id="Pass Type"  name="Pass Type">
+      <option value="...">...</option>
+      <option value="...">...</option>
+      </select>
+
+    </fieldset><br><br>
+    <input type="submit" value="Submit">
+    <input type="reset" value="Reset">
+
+
+</body>
+</html>
